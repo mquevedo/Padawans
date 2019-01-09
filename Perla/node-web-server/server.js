@@ -63,7 +63,7 @@ app.get('/about',(request,response)=>{
 });
 
 app.get('/projects',(request, response)=>{
-	res.render('projects.hbs',{
+	res.render('project.hbs',{
 		pageTitle: 'Projects'
 	});
 });
